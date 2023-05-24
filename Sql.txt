@@ -1,0 +1,19 @@
+لانشاء قاعدة البيانات : يجب عليك الدخول الى الموقع 
+http://localhost/phpmyadmin/
+ثم اضغط على 
+databases 
+ثم ادحل اسم قاعدة  البيانات : 
+messages 
+سوف يخرج لك خيار جديد في القائمة اليسرى اسمه 
+messages 
+اضغط عليه واختر الخيار المجود في الاعلى 
+SQL
+قم بادخال هذا الكود لانشاء الجدول 
+CREATE TABLE messages (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  message TEXT NOT NULL
+)
+واخيرا اضغد على 
+GO
